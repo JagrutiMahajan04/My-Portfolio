@@ -173,3 +173,36 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+.skills h2 {
+    margin-bottom: 5rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 2rem;
+}
+
+.skills-container .skills-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.skills-box  h3 {
+     font-size: 2.6rem;
+     color:var(--main-color)
+}
+
+.skills-box ul{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    list-style-type: none;
+}
+
